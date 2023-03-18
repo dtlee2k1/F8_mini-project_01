@@ -52,13 +52,16 @@ a {
 
 /* ======== Header ======== */
 .header {
-    position: relative;
+    position: sticky;
+    top: -26px;
     background-color: #e6f0ff;
-    padding: 38px 0 157px;
+    padding-top: 26px;
+    z-index: 1;
 }
 
 .navbar {
     display: flex;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -97,9 +100,14 @@ a {
     padding: 13px 16px;
 }
 
+/* ======== Hero ======== */
 .hero {
-    margin-top: 130px;
+    position: relative;
+    background-color: #e6f0ff;
+    padding-bottom: 157px;
+    padding-top: 118px;
 }
+
 .hero .info {
     width: 50.36%;
 }
