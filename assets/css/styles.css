@@ -167,7 +167,8 @@ a {
 
 .clients .images .link {
     display: flex;
-    padding: 32px 42px;
+    align-items: center;
+    padding: 25px 42px;
     border-radius: 12px;
 }
 
